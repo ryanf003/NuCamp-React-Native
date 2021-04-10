@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { View, Text, ScrollView } from 'react-native';
 import { Card } from 'react-native-elements';
-import { CAMPSITES } from '../shared/campsites'
-import { PROMOTIONS } from '../shared/promotions'
-import { PARTNERS } from '../shared/partners'
+import { CAMPSITES } from '../shared/campsites';
+import { PROMOTIONS } from '../shared/promotions';
+import { PARTNERS } from '../shared/partners';
 
 function RenderItem({item}) {
     if(item){
@@ -46,7 +46,7 @@ class Home extends Component {
                     item={this.state.partners.filter(partner => partner.featured)[0]} />
             </ScrollView>
         );
-    }promotion
+    }
 }
 
 export default Home
